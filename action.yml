@@ -1,0 +1,11 @@
+name: 'pr-labeler-action'
+description: 'A GitHub Action to label a Pull Request'
+author: erezrokah
+inputs:
+  token:
+    description: 'The GITHUB_TOKEN secret'
+  label:
+    description: 'The label to assign to the PR'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
