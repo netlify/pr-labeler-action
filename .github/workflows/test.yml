@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    tags:
+      - '*'
 
   pull_request:
     types: [opened, synchronize, reopened]
@@ -37,9 +39,6 @@ jobs:
 
       - name: Run Linter
         run: yarn lint
-
-      - name: Check Format
-        run: yarn format-check
 
       - name: Check Format
         run: yarn format-check
