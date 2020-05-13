@@ -43,8 +43,5 @@ jobs:
       - name: Check Format
         run: yarn format-check
 
-      - name: Check Format
-        run: yarn format-check
-
       - name: Run Build
         run: yarn build
