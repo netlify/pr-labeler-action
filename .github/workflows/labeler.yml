@@ -1,0 +1,31 @@
+name: Label PR
+on:
+  - pull_request
+
+jobs:
+  label-bugs:
+    if: startsWith(github.event.pull_request.title, 'fix')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: erezrokah/pr-labeler-action@v1
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          label: 'type: bug'
+
+  label-chores:
+    if: startsWith(github.event.pull_request.title, 'chore')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: erezrokah/pr-labeler-action@v1
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          label: 'type: chore'
+
+  label-features:
+    if: startsWith(github.event.pull_request.title, 'feat)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: erezrokah/pr-labeler-action@v1
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          label: 'type: feature'
