@@ -12,7 +12,7 @@ async function main() {
       return;
     }
     const prNumber = pullRequest.number;
-    const client = new github.GitHub(token);
+    const client = github.getOctokit(token);
 
     await client.issues.addLabels({
       owner: github.context.repo.owner,
