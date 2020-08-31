@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/erezrokah/pr-labeler-action#readme",
   "dependencies": {
-    "@actions/core": "^1.0.0",
+    "@actions/core": "^1.2.5",
     "@actions/github": "^4.0.0"
   },
   "devDependencies": {
