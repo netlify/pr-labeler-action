@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erezrokah/pr-labeler-action.git"
+    "url": "git+https://github.com/netlify/pr-labeler-action.git"
   },
-  "author": "Erez Rokah",
+  "author": "Netlify Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erezrokah/pr-labeler-action/issues"
+    "url": "https://github.com/netlify/pr-labeler-action/issues"
   },
-  "homepage": "https://github.com/erezrokah/pr-labeler-action#readme",
+  "homepage": "https://github.com/netlify/pr-labeler-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5",
     "@actions/github": "^4.0.0"

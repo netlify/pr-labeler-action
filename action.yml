@@ -1,6 +1,6 @@
 name: 'pr-labeler-action'
 description: 'A GitHub Action to label a Pull Request'
-author: erezrokah
+author: netlify
 inputs:
   token:
     description: 'The GITHUB_TOKEN secret'
