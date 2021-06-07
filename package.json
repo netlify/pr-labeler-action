@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "format": "prettier --write **/*.ts",
-    "format-check": "prettier --check **/*.ts",
+    "format:ci": "prettier --check **/*.ts",
     "lint": "eslint '**/*.ts'"
   },
   "repository": {
@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "eslint": "^7.0.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.1",
     "prettier": "^2.0.5",
