@@ -21,7 +21,7 @@
   "homepage": "https://github.com/netlify/pr-labeler-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5",
-    "@actions/github": "^4.0.0"
+    "@actions/github": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",

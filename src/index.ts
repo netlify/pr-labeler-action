@@ -14,7 +14,7 @@ async function main() {
     const prNumber = pullRequest.number;
     const client = github.getOctokit(token);
 
-    await client.issues.addLabels({
+    await client.rest.issues.addLabels({
       owner: github.context.repo.owner,
       repo: github.context.repo.repo,
       issue_number: prNumber,
