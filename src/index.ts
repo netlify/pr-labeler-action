@@ -21,8 +21,9 @@ async function main() {
       labels: [label],
     });
   } catch (error) {
-    core.error(error);
-    core.setFailed(error.message);
+    const err = error as Error;
+    core.error(err);
+    core.setFailed(err.message);
   }
 }
 
