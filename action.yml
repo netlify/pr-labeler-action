@@ -3,7 +3,9 @@ description: 'A GitHub Action to label a Pull Request'
 author: netlify
 inputs:
   token:
+    default: ${{ github.token }}
     description: 'The GITHUB_TOKEN secret'
+    required: false
   label:
     description: 'The label to assign to the PR'
 runs:
