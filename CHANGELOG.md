@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/netlify/pr-labeler-action/compare/v1.1.0...v1.1.1) (2024-11-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/core to v1.10.1 ([82db8b4](https://github.com/netlify/pr-labeler-action/commit/82db8b40e3ba3a7428502ab060265a9c0f75711a))
+* **deps:** update dependency @actions/core to v1.9.1 ([52b5e7d](https://github.com/netlify/pr-labeler-action/commit/52b5e7dca249ddcf9a0e36163bf8e11ab8fefe37))
+
 ## 1.1.0 (2022-06-23)
 
 
