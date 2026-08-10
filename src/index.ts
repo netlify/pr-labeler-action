@@ -3,7 +3,7 @@ import * as github from '@actions/github';
 
 async function main() {
   try {
-    const token = core.getInput('token', { required: true });
+    const token = core.getInput('token');
     const label = core.getInput('label', { required: true });
 
     const pullRequest = github.context.payload.pull_request;
